@@ -30,9 +30,8 @@ def find_best_pair(points):
     return best_pair[0], best_pair[1], min_diff
 
 def main():
-    # ПРИМЕР №1
-    n = 6
-    points = [(0, 0), (1, 0), (2, 0), (10, 10), (11, 11), (50, 0)] 
+    # ПРИМЕР №2
+    points = [(0, 0), (2, 0), (4, 0), (1, 5), (3, 5)]
     p1, p2, diff = find_best_pair(points)
     print(f"\nЛучшая прямая: A{p1} B{p2}")
     print(f"Минимальная разность: {diff}")
